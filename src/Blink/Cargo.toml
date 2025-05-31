@@ -1,0 +1,10 @@
+[package]
+name = "Blink"
+version = "0.1.1"
+edition = "2024"
+
+[dependencies]
+rppal = "0.22.1"
+
+[target.aarch64-unknown-linux-gnu]
+linker = "/opt/homebrew/bin/aarch64-linux-gnu-gcc"
