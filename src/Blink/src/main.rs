@@ -7,10 +7,8 @@ const LED_PIN: u8 = 17;
 
 fn main() -> Result<(), Box<dyn Error>> {
     println!("Program is starting...");
-    let gpi = Gpio::new()?;
-
-    let mut pin = gpi.get(LED_PIN)?.into_output();
-
+    let gpio = Gpio::new()?;
+    let mut pin = gpio.get(LED_PIN)?.into_output();
     println!("LED will blink every 1 second.");
 
     loop {
