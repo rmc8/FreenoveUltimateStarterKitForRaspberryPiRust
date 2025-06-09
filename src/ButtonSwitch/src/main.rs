@@ -9,8 +9,6 @@ fn main() -> Result<(), Box<dyn Error>> {
     let gpio = Gpio::new()?;
     let mut led_pin = gpio.get(LED_PIN)?.into_output();
     let btn_pin = gpio.get(BTN_PIN)?.into_input();
-    println!("LED will blink every 1 second.");
-
     loop {
         if btn_pin.is_low() {
             // led_pin.set_high();
