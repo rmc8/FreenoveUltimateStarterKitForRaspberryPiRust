@@ -1,0 +1,9 @@
+[package]
+name = "RGBLED"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ctrlc = "3.4.7"
+rand = "0.9.1"
+rppal = "0.22.1"
