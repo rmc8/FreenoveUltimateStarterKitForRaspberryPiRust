@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="EMPTY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/Alertor/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Blink/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/BreathingLED/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ButtonSwitch/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Buzzer/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/LightWater/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/RGBLED/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/TableLamp/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Softlight/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Alertor/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Blink/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/BreathingLED/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/ButtonSwitch/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Buzzer/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/LightWater/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/RGBLED/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/TableLamp/target" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Softlight/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

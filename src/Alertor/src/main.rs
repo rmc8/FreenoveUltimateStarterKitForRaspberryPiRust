@@ -14,18 +14,18 @@ const ALERTOR_DURATION_MS: u64 = 100;
 
 fn main() -> Result<(), Box<dyn Error>> {
     print_startup_message();
-    
+
     let (mut buzzer_pin, btn_pin) = initialize_gpio()?;
     initialize_buzzer(&mut buzzer_pin);
-    
+
     let running = setup_signal_handler()?;
-    
+
     println!("Waiting for button press...");
-    
+
     run_main_loop(&running, &mut buzzer_pin, &btn_pin)?;
-    
+
     cleanup(&mut buzzer_pin)?;
-    
+
     Ok(())
 }
 
@@ -66,7 +66,7 @@ fn run_main_loop(
             stop_alertor_sound(buzzer_pin)?;
             print_alertor_off_message();
         }
-        
+
         thread::sleep(Duration::from_millis(LOOP_DELAY_MS));
     }
     Ok(())
