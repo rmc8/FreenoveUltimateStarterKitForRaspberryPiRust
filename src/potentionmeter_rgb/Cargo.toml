@@ -1,0 +1,8 @@
+[package]
+name = "potentionmeter_rgb"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rppal = "0.19.0"
+ctrlc = "3.4"
